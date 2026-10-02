@@ -7,7 +7,7 @@ from instagrapi.mixins.note import NoteAudience
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-TELEGRAM_BOT_TOKEN = "8811207886:AAGyyK85V9cHNZ3kd0QipugJlaT7sv80USw"
+TELEGRAM_BOT_TOKEN = "Your_Bot_Token"
 SESSION_FILE = "session.json"
 
 cl = Client()
