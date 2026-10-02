@@ -3,8 +3,8 @@ from instagrapi import Client
 cl = Client()
 
 # Replace with your actual Instagram credentials
-username = "lost.in.h3ll"
-password = "Mughees17"
+username = "Your_Username"
+password = "Your_Password"
 
 cl.login(username, password)
 cl.dump_settings("session.json")
