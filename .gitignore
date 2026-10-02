@@ -1,5 +1,18 @@
+# Security & Credentials (CRITICAL - Never upload these)
 session.json
 *.json
-__pycache__/
-*.log
 .env
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+
+# Log Files
+*.log
+
+# System & Termux Files
+.DS_Store
+*.swp
+
